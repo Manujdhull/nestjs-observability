@@ -1,6 +1,6 @@
 {
   "name": "nestjs-observability",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in observability toolkit for NestJS with correlation IDs, structured logging, Prometheus metrics, and distributed tracing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,16 @@
   ],
   "author": "",
   "license": "MIT",
+
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Manujdhull/nestjs-observability.git"
+  },
+  "homepage": "https://github.com/Manujdhull/nestjs-observability",
+  "bugs": {
+    "url": "https://github.com/Manujdhull/nestjs-observability/issues"
+  },
+
   "peerDependencies": {
     "@nestjs/common": "^9.0.0 || ^10.0.0 || ^11.0.0",
     "@nestjs/core": "^9.0.0 || ^10.0.0 || ^11.0.0",
